@@ -1,7 +1,6 @@
-import { WebSocketService} from './services/websocket'
+import './services/websocket'
 import { protoService } from './services/proto_service';
 
-WebSocketService.getInstance()
 protoService.initialize("proto/message.proto")
 
 

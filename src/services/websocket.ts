@@ -68,4 +68,4 @@ export class WebSocketService {
     // 这里可以添加更多功能，例如事件订阅、自动重连等
 }
 
-// WebSocketService.getInstance()
+export const socket = WebSocketService.getInstance();
