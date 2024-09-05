@@ -18,12 +18,13 @@
         "build": "vite build --config vite/config.prod.mjs"
     },
     "devDependencies": {
-        "terser": "^5.31.0",
-        "typescript": "^5.4.5",
-        "vite": "^5.3.1"
+        "terser": "^5.31.6",
+        "typescript": "^5.5.4",
+        "vite": "^5.4.3"
     },
     "dependencies": {
         "phaser": "^3.80.1",
-        "protobufjs": "^7.3.2"
+        "phaser-utils": "github:code-serenade/phaser-utils",
+        "protobufjs": "^7.4.0"
     }
 }

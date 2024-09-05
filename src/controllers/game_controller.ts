@@ -1,5 +1,5 @@
-import eventManager from '../services/events';
-import { socket } from '../services/websocket'
+import { eventManager } from 'phaser-utils';
+import { socket } from '../socket';
 
 export class GameController {
     constructor(private scene: Phaser.Scene) {
